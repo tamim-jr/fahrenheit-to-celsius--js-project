@@ -2,7 +2,7 @@
 
 var farInput = parseFloat(prompt("Input your Farenheit value here: "));
 
-var output =  (farInput - 32) * 5/6;
+var output =  (farInput - 32) * 5/9;
 
 output = output.toFixed(2);
 document.write("Your Celsius value is: " + output);
